@@ -57,7 +57,7 @@ text-align: center;
 header, section {
     padding: 4rem 0;
     @media (min-width: 40em) {
-      header,
+      header, 
       section {
         padding: 7rem 0;
       }
@@ -74,7 +74,7 @@ header, section {
     display: flex;
     flex-direction: column;
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
     .split {
         flex-direction: row;
     }
